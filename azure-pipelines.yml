@@ -1,0 +1,39 @@
+trigger:
+- main
+
+stages:
+- stage: Build
+  jobs:
+  - job: Build
+    steps:
+    - script: |
+        echo "Building ADF & Databricks artifacts..."
+        python -m unittest discover tests
+      displayName: 'Run Unit Tests'
+
+- stage: Deploy
+  dependsOn: Build
+  jobs:
+  - deployment: DeployADF
+    environment: production
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - script: |
+              echo "Deploying ADF pipelines via ARM templates"
+              az deployment group create --resource-group $(ResourceGroup) --template-file adf_arm_template.json
+            displayName: 'Deploy ADF Pipelines'
+
+  - deployment: DeployDatabricks
+    environment: production
+    strategy:
+      runOnce:
+        deploy:
+          steps:
+          - script: |
+              echo "Running Terraform to deploy Databricks resources"
+              cd pipelines/terraform
+              terraform init
+              terraform apply -auto-approve
+            displayName: 'Terraform Apply'

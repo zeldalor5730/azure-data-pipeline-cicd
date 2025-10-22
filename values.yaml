@@ -1,0 +1,8 @@
+replicaCount: 1
+image:
+  repository: spark-job
+  tag: latest
+resources:
+  limits:
+    cpu: "2"
+    memory: "4Gi"

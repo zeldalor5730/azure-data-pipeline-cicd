@@ -1,0 +1,4 @@
+apiVersion: v2
+name: spark-job-chart
+version: 1.0.0
+description: Helm chart for Spark job deployment
